@@ -8,7 +8,7 @@ br.mo {display: none;}
 
 /*반응형 시작*/
 /*테블릿모드 : 1100px이하~ 951px*/
-@media screen and (max-width:1200){
+@media screen and (max-width:1100px){
     .container {min-width: 100%;} 
     
     /*header*/
@@ -101,6 +101,7 @@ br.mo {display: none;}
 }
 /* 750px 이하 - 모바일 디바이스 체크 */  
 @media screen and (max-width:750px){
+    .container {min-width: 100%;}
     /*visual*/
     section.visual {height: 80vh; overflow: hidden;}
     section.visual .img {width: 87%;}
@@ -132,6 +133,7 @@ br.mo {display: none;}
 }
 /* 320px 이하  - 280px  체크 - 개발자도구에서 갤럭시 폴드 기종 추가 */ 
 @media screen and (max-width:320px){
+    .container {min-width: 100%;}
     section.visual .title h2 {font-size: 22px;}
     section.visual .title p {font-size: 11px;}
     section.visual .img .page img {width: 55%; margin-left: 15%;}
