@@ -17,7 +17,7 @@ body {
 /* section : visual */
 section.visual {
     margin-top: 20px;
-    padding-bottom: 150px;
+    padding-bottom: 10px;
     position: relative;
 }
 
@@ -26,7 +26,7 @@ section.visual::before {
     width: 53%;
     height: 400px;
     position: absolute;
-    bottom: 150px;
+    bottom: 50px;
     right: 0;
     background-color: #f0f0f0;
 }
@@ -59,7 +59,7 @@ section.visual .title {
     position: absolute;
     top: 40%;
     left: 8%;
-    color: #F0E9DF;
+    color: #a6b82c;
 }
 
 section.visual .title h2 {
@@ -198,6 +198,11 @@ section.visual .slick-active .imgBox img {
     background-color: #39312b
 }
 
+/* section.about_map */
+section.about .map {
+    width: auto;
+    height: 1100px;
+}
 
 /* section : about */
 
@@ -209,26 +214,49 @@ section.about {
 }
 
 section.about img {
-    width: 100%;
+    height: 100%;
+}
+
+section.about .letter {
+    font-family: 'Gowun Batang', serif;
+    background-color: #fff;
+}
+
+section.about .letter h2 {
+    font-size: 35px;
+    padding: 55px;
+    color: #000;
+}
+
+section.about .letter p{
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #4e4e4e;
+}
+
+section.about .letter h3 {
+    margin-top: 3px;
 }
 
 section.about .inner {
     width: 100%;
     position: absolute;
-    top: 50%;
+    bottom: -17%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: #3c3d3d;
 }
 
 section.about .inner h2 {
-    font-size: 30px;
-    color: #000;
+    font-size: 20px;
+    color: #fff;
     font-weight: normal;
+    margin-top: 48px;
 }
 
 section.about .inner .line {
     width: 35%;
-    margin: 80px auto;
+    margin: 60px auto;
     position: relative;
 }
 
@@ -380,9 +408,10 @@ section.premium {
 section.premium .txtImg {
     position: absolute;
     left: 0;
-    top: 20%;
+    top: 6%;
     display: block;
     width: 100%;
+    height: 10%;
     overflow: hidden;
 }
 
@@ -407,23 +436,23 @@ section.premium .txtImg.motion {
 
 section.premium .title {
     position: absolute;
-    left: 8%;
-    top: 35%;
+    left: 7%;
+    top: 200px;
 }
 
 section.premium .title h2 {
     font-size: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 section.premium .title p {
-    font-size: 19px;
+    font-size: 16px;
     line-height: 1.6;
     margin-bottom: 30px;
 }
 
 section.premium .title a {
-    font-size: 24px;
+    font-size: 20px;
     display: inline-block;
     position: relative;
 }
@@ -462,27 +491,64 @@ section.premium .banner li:nth-child(1).motion {
 }
 
 section.premium .banner li:nth-child(2).motion {
-    left: 37%;
+    left: 40%;
     top: 50%;
     animation-name: slid-up;
     animation-duration: 1.8s;
 }
 
 section.premium .banner li:nth-child(3).motion {
-    left: 55%;
+    left: 54%;
     top: 62%;
     animation-name: slid-up;
     animation-duration: 2.2s;
 }
 
 section.premium .banner li:nth-child(4).motion {
+    left: 4%;
+    top: 78%;
+    animation-name: slid-up;
+    animation-duration: 1.5s;
+    width: 10%;
+    max-width: 580px;
+}
+
+section.premium .banner li:nth-child(5).motion {
+    left: 12%;
+    top: 42%;
+    animation-name: slid-up;
+    animation-duration: 1.5s;
+    width: 25%;
+    max-width: 580px;
+}
+
+section.premium .banner li:nth-child(6).motion {
+    left: 1%;
+    bottom: 32%;
+    animation-name: slid-up;
+    animation-duration: 1.5s;
+    width: 10%;
+    max-width: 580px;
+}
+
+section.premium .banner li:nth-child(7).motion {
+    left: 30%;
+    top: 22%;
+    animation-name: slid-up;
+    animation-duration: 1.5s;
+    width: 10%;
+    max-width: 580px;
+}
+
+section.premium .banner li:nth-child(8).motion {
     right: 2%;
-    top: 32%;
+    top: 20%;
     animation-name: slid-up;
     animation-duration: 1.5s;
     width: 32%;
     max-width: 580px;
 }
+
 
 
 /* section.global */
@@ -497,28 +563,32 @@ section.global {
 section.global::before {
     content: '';
     width: 100%;
-    height: 45%;
+    height: 42%;
     background-color: #eee;
     position: absolute;
     left: 0;
     bottom: 0;
-    z-index: 5;
+    /* z-index: 5; */
 }
 
+section.global .title {
+    margin-top: 300px;
+}
 section.global .title h2 {
     font-size: 30px;
     margin-bottom: 20px;
+    color: #000;
 }
 
 section.global .title p {
     font-size: 18px;
     line-height: 1.4;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
 }
 
 section.global ul {
     overflow: hidden;
-    padding-top: 50px;
+    padding-top: 105px;
 }
 
 section.global ul li {
