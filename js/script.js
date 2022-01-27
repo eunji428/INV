@@ -6,7 +6,7 @@ $(function(){
         dots: true,                 //닷츠
         autoplay: true,             //자동재생
         fade: true,                 //페이드인 효과 
-        autoplaySpeed:5000,         //재생시간 5초
+        autoplaySpeed: 5000,         //재생시간 5초
         pauseOnHover:false,         //마우스 오버시 슬라이드 멈춤 해제
         pauseOnFocus:false          //포커스시 슬라이드 멈춤 해제
     });
@@ -77,4 +77,7 @@ $(function() {
     })
 
 })
+
+// 배경음악
+const beeSound = document.getElementById("bee-sound"); const [body] = document.getElementsByTagName("body"); function play() { if (!beeSound instanceof HTMLAudioElement) return; if (beeSound.paused) { beeSound.play(); } else { body.removeEventListener("click", play); } console.log(beeSound.paused); } body.addEventListener("click", play);
 
