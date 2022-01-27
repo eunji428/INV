@@ -1,0 +1,17 @@
+.wrap {
+    width: 100%;
+    height: 100%;
+    margin: 200px auto;
+    overflow: hidden;
+}
+ 
+.slide {
+    width: auto;
+    height: 80%;
+}
+
+.bx-viewport {
+    height: 78em !important;
+}
+
+.slide img { width: auto; height: auto; }
