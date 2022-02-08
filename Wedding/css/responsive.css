@@ -272,7 +272,8 @@ br.mo {display: none;}
  
      /* 섹션 : gallery */
      section.gallery { margin: 100px auto; padding: 10px 0; }
-     section.gallery .txtImg img { margin-top: 1px; margin-left: 20px;}
+     section.gallery .txtImg { top: 64%;}
+     section.gallery .txtImg img { margin-top: 1px; margin-left: 10px; margin-bottom: 15px; width: 40%;}
      section.gallery .title { top: 30px;}
      section.gallery .title h2 { margin-bottom: 40px;}
      section.gallery .title p { margin-bottom: 15px;}
