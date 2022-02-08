@@ -81,3 +81,13 @@ $(function() {
 // 배경음악
 const beeSound = document.getElementById("bee-sound"); const [body] = document.getElementsByTagName("body"); function play() { if (!beeSound instanceof HTMLAudioElement) return; if (beeSound.paused) { beeSound.play(); } else { body.removeEventListener("click", play); } console.log(beeSound.paused); } body.addEventListener("click", play);
 
+// 팝업
+function popup(){
+    var url = "popup.html"
+    var name = "popup test"
+    var option = "width = 500, height = 500, top = 100, left = 200, location = no"
+
+    window.open(popup.html, heart)
+}
+
+
