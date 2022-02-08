@@ -27,26 +27,31 @@ br.mo {display: none;}
 
     /* 섹션 : gallery */
     section.gallery { width: 100%; height: 800px;}
+    section.gallery .txtImg{ height: 80%; top: 480px;}
+    section.gallery .txtImg img { margin-left: 80px;}
     section.gallery .title { left: 5%;}
-    section.gallery .txtImg { left: 5px;}
-    section.gallery .banner li:nth-child(1).motion {left: 13%; width: 35%;}
+    section.gallery .title a { font-size: 15px;}
+    section.gallery .title a::before { width: 60px; height: 10px;}
+    
 
     /* 섹션 : map */
     section.map {width: 100%; height: 600px;}
-    section.map img { width: 100%;}
-    section.map .inner { height: 30em; top: 180%;}
+    section.map img { width: 100%; margin-top: 80px;}
+    section.map .inner { height: 34em; top: 180%;}
     section.map .inner h2 { font-size: 23px;}
     section.map .inner ul {width: 80%;}
     section.map .inner .traffic {width: 40%;}
 
     /* 섹션 : 춘천map */
     /* section.CC_map .inner ul li h3 { font-size: 1px; margin: 0;} */
-    section.CC_map .inner { height: 30em; top: 175%;}
+    section.CC_map { top: 665px;}
+    section.CC_map .inner { height: 30em; top: 130%;}
     section.CC_map .inner h2 { font-size: 23px;}
     section.CC_map .inner ul {width: 80%;}
 
     /* 섹션 : call */
     section.call { margin-top: 94%;}
+    
 
     /* footer */
     footer .flower {font-weight: lighter; }
