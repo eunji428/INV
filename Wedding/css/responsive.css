@@ -30,8 +30,8 @@ br.mo {display: none;}
     section.gallery .txtImg{ height: 10%; top: 530px;}
     section.gallery .txtImg img { margin-left: 60px;}
     section.gallery .title { left: 5%;}
-    section.gallery .title a { font-size: 15px;}
-    section.gallery .title a::before { width: 60px; height: 10px;}
+    section.gallery .title a { font-size: 19px;}
+    section.gallery .title a::before { width: 120px; height: 15px;}
     
     /* 섹션 : map */
     section.map {width: 100%; height: 600px; top: 40px; margin: 0;}
@@ -78,7 +78,7 @@ br.mo {display: none;}
     /* 섹션 : gallery */
     section.gallery { width: 100%; height: 800px; margin-top: 80px;}
     section.gallery .title { width: 100%; left: 5%; top: 50px;}
-    section.gallery .title a { font-size: 18px;}
+    section.gallery .title a { font-size: 19px;}
     section.gallery .title p { margin-bottom: 15px;}
     section.gallery .title h2 { margin-bottom: 30px;}
     section.gallery .txtImg { left: 10px; top: 66%;}
@@ -230,8 +230,8 @@ br.mo {display: none;}
       section.gallery .title { top: 30px;}
       section.gallery .title h2 { margin-bottom: 40px;}
       section.gallery .title p { margin-bottom: 15px;}
-      section.gallery .title a { font-size: 14px;}
-      section.gallery .title a::before { width: 60px; height: 13px;}
+      section.gallery .title a { font-size: 18px;}
+      section.gallery .title a::before { width: 110px; height: 15px;}
       section.gallery .banner { height: 620px;}
       section.gallery .banner .txt p { font-size: 13px; margin-bottom: 5px; font-weight: bold;}
       section.gallery .banner li:nth-child(1).motion {left: 30px; width: 38%; top: 48%;}
@@ -310,8 +310,8 @@ br.mo {display: none;}
      section.gallery .title { top: 30px;}
      section.gallery .title h2 { margin-bottom: 40px; font-size: 26px;}
      section.gallery .title p { margin-bottom: 15px;}
-     section.gallery .title a { font-size: 14px;}
-     section.gallery .title a::before { width: 60px; height: 13px;}
+     section.gallery .title a { font-size: 16px;}
+     section.gallery .title a::before { width: 105px; height: 13px;}
      section.gallery .banner { height: 620px;}
      section.gallery .banner .txt p { font-size: 13px; margin-bottom: 5px; font-weight: bold;}
      section.gallery .banner li:nth-child(1).motion {left: -20px; width: 52%; top: 50%;}
@@ -389,8 +389,8 @@ br.mo {display: none;}
     section.gallery .title { top: 20px;}
     section.gallery .title h2 { font-size: 22px; margin-bottom: 30px;}
     section.gallery .title p { font-size: 14px; }
-    section.gallery .title a { font-size: 13px;}
-    section.gallery .title a::before { width: 50px; height: 8px;}
+    section.gallery .title a { font-size: 15px;}
+    section.gallery .title a::before { width: 105px; height: 12px;}
     section.gallery .banner { height: 570px;}
     section.gallery .banner li:nth-child(1).motion {left: -20px; width: 52%; top: 51%;}
     section.gallery .banner li:nth-child(2).motion { left: -25px; font-size: 7px; top: 0; box-shadow: none; width: 55%;}
@@ -466,8 +466,8 @@ br.mo {display: none;}
     section.gallery .title { left: 5%; top: 5%;}
     section.gallery .title h2 { font-size: 18px; margin-bottom: 10px;}
     section.gallery .title p { font-size: 9px; margin-bottom: 0;}
-    section.gallery .title a { font-size: 9px;}
-    section.gallery .title a:before { width: 40px; height: 8px;}
+    section.gallery .title a { font-size: 11px;}
+    section.gallery .title a:before { width: 80px; height: 8px;}
     section.gallery .txtImg { left: -1px; top: 345px; height: 10%;}
     section.gallery .txtImg img { width: 45%; }
     section.gallery .banner { position: relative; width: 80%; left: 50%; transform: translateX(-50%); height: 480px;}
