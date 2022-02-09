@@ -285,7 +285,7 @@ br.mo {display: none;}
 
 /* 640~587 */
 @media screen and (max-width:450px){
-    .container { min-height: 2995px; }
+    .container { min-height: 3050px; }
 
      /* top_banner */
      .top_banner { height: 30px; line-height: 30px; font-size: 0.8rem;}
@@ -450,7 +450,7 @@ br.mo {display: none;}
 
 /* 320px 이하  - 280px  체크 - 개발자도구에서 갤럭시 폴드 기종 추가 */ 
 @media screen and (max-width:280px) {
-    .container { min-height: 2300px;}
+    .container { min-height: 2330px;}
     /* top_banner */
     .top_banner { height: 30px; line-height: 30px; font-size: 0.8rem;}
 
