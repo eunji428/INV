@@ -8,7 +8,7 @@ br.mo {display: none;}
 /*반응형 시작*/
 /*테블릿모드 : 1100px이하~ 951px*/
 @media screen and (max-width:1100px){
-    .container {min-width: 100%; min-height: 3000px;} 
+    .container {min-width: 100%; min-height: 2200px;} 
 
     /* top_banner */
     .top_banner { height: 48px; line-height: 50px;}
@@ -26,17 +26,16 @@ br.mo {display: none;}
     section.about .inner ul li:nth-child(3){margin-left: 25%;}
 
     /* 섹션 : gallery */
-    section.gallery { width: 100%; height: 800px;}
-    section.gallery .txtImg{ height: 80%; top: 480px;}
+    section.gallery { width: 100%; height: 1100px;}
+    section.gallery .txtImg{ height: 10%; top: 530px;}
     section.gallery .txtImg img { margin-left: 60px;}
     section.gallery .title { left: 5%;}
     section.gallery .title a { font-size: 15px;}
     section.gallery .title a::before { width: 60px; height: 10px;}
     
-
     /* 섹션 : map */
-    section.map {width: 100%; height: 600px;}
-    section.map img { width: 100%; margin-top: 80px;}
+    section.map {width: 100%; height: 600px; top: 40px; margin: 0;}
+    section.map img { width: 100%; }
     section.map .inner { height: 34em; top: 180%;}
     section.map .inner h2 { font-size: 23px;}
     section.map .inner ul {width: 80%;}
@@ -44,13 +43,13 @@ br.mo {display: none;}
 
     /* 섹션 : 춘천map */
     /* section.CC_map .inner ul li h3 { font-size: 1px; margin: 0;} */
-    section.CC_map { top: 665px;}
+    section.CC_map { top: 780px;}
     section.CC_map .inner { height: 30em; top: 130%;}
     section.CC_map .inner h2 { font-size: 23px;}
     section.CC_map .inner ul {width: 80%;}
 
     /* 섹션 : call */
-    section.call { margin-top: 94%;}
+    section.call { top: 5px; margin: 0; padding: 0;}
     
 
     /* footer */
@@ -60,7 +59,7 @@ br.mo {display: none;}
 
 /*950px 이하 - 751px 테블릿 참고*/
 @media screen and (max-width:950px){
-    .container {min-height: 5000px;}
+    .container {min-height: 3100px;}
 
     /* top_banner */
     .top_banner { height: 50px; line-height: 45px; font-size: 1.3rem;}
@@ -102,14 +101,15 @@ br.mo {display: none;}
     section.map .inner .traffic {width: 60%;}
 
     /* 섹션 : 춘천map */
-    section.CC_map { top: 16%;}
+    section.CC_map { top: 750px;}
     section.CC_map img { top: 600px;}
-    section.CC_map .inner { height: 30em; top: 135%;}
+    section.CC_map .inner { height: 30em; top: 130%;}
     section.CC_map .inner h2 { font-size: 23px;}
     section.CC_map .inner ul {width: 80%;}
     section.CC_map .inner .traffic {width: 60%;}
 
     /* 섹션 : call */
+    section.call { margin-top: 150%;}
     section.call .groom { width: 580px;}
     section.call .bride { width: 580px;}
     
@@ -190,7 +190,7 @@ br.mo {display: none;}
 
     /* 섹션 : 춘천map */
     section.CC_map { width: 100%; height: 380px;}
-    section.CC_map img { width: 100%; margin-top: -20%;}
+    section.CC_map img { width: 100%; }
     section.CC_map .inner {height: 57em; margin-top: 34%;}
     section.CC_map .inner h2 { font-size: 21px;}
     section.CC_map .inner .traffic {width: 70%;}
@@ -218,47 +218,81 @@ br.mo {display: none;}
     section.visual { height: 30vh; overflow: hidden;}
     .slick-dots li button {width: 8px; height: 8px;}
 
-    /* 섹션 : gallery */
-    section.gallery .banner li:nth-child(1).motion {left: 3%; width: 35%;}
-    section.gallery .banner li:nth-child(2).motion {left: 0; width: 50%;}
-    section.gallery .banner li:nth-child(3).motion {left: 58%; width: 40%; top: 72%;}
-
-    /* 섹션 : map */
-    section.map .inner {height: 65em; margin-top: 34%;}
-    section.map .inner ul li h3 {font-size: 19px;}
-    section.map .inner ul li p { font-size: 14px; padding: 10px}
-    
-    /* 섹션 : call */
-    section.call { margin-top: 50%;}
-    section.call .phone_gr img { width: 45px; left: 28%;}
-    section.call .groom tr,td { padding: 25px 5px; text-align: center; font-size: 15px;}
-    section.call .groom img{ width: 30px; padding: 2px; left: 15%;}
-    section.call .groom img.kakao { width: 50px; float: left; left: 30px;}
-
-    section.call .phone_br img { width: 45px; right: 28%; top: 10px;}
-    section.call .bride tr,td { padding: 25px 5px; text-align: center; font-size: 15px;}
-    section.call .bride img { width: 30px; padding: 2px; left: 2px; top: 1px}
-    section.call .bride img.kakao { width: 50px; float: left; left: 30px;}
-
-    section.call input#popup + label { font-size: 13px; padding: 18px;}
-    section.call input#popup1 + label { font-size: 13px; padding: 18px;}
-    section.call input#popup + label + div > div { width: 340px; height: 280px;}
-    section.call input#popup1 + label + div > div { width: 340px; height: 280px;}
-
-    /* footer */
-    footer .flower {font-weight: lighter; }
-    footer .parking {font-weight: lighter; }
+     /* 섹션 : about - letter */
+     section.about { margin: 10px auto;}
+     section.about .letter h2 { font-size: 22px; padding: 0; margin: 50px;}
+     section.about .letter p { font-size: 13px; padding: 3px;}
+  
+      /* 섹션 : gallery */
+      section.gallery { margin: 100px auto; padding: 10px 0; }
+      section.gallery .txtImg { top: 62%;}
+      section.gallery .txtImg img { margin-top: 1px; margin-left: 10px; margin-bottom: 15px; width: 40%;}
+      section.gallery .title { top: 30px;}
+      section.gallery .title h2 { margin-bottom: 40px;}
+      section.gallery .title p { margin-bottom: 15px;}
+      section.gallery .title a { font-size: 14px;}
+      section.gallery .title a::before { width: 60px; height: 13px;}
+      section.gallery .banner { height: 620px;}
+      section.gallery .banner .txt p { font-size: 13px; margin-bottom: 5px; font-weight: bold;}
+      section.gallery .banner li:nth-child(1).motion {left: 30px; width: 38%; top: 48%;}
+      section.gallery .banner li:nth-child(2).motion { left: -45px; font-size: 12px; top: -2%; box-shadow: none; width: 55%;}
+      section.gallery .banner li:nth-child(3).motion { left: 51%; font-size: 12px; top: 42%; width: 50%; box-shadow: none;}
+      section.gallery .banner li:nth-child(4).motion {left: 49%; width: 38%; top: -20px;}
+  
+      /* 섹션 : map */
+      section.map .inner { height: 21em; top: 243%; margin-top: -426px;}
+      section.map .inner h2 {font-size: 16px;}
+      section.map .inner ul li { width: 33%;}
+      section.map .inner ul li h3 { font-size: 13px;}
+      section.map .inner ul li p { font-size: 10px; padding: 5px; float: left;}
+      section.map .inner .traffic { margin: 13%;}
+      
+      /* 섹션 : 춘천map */
+      section.CC_map { top: 180px;}
+      section.CC_map img { }
+      section.CC_map .inner { height: 20em; top: 100%; margin-top: 0;}
+      section.CC_map .inner h2 {font-size: 16px;}
+      section.CC_map .inner ul li { width: 33%;}
+      section.CC_map .inner ul li h3 { font-size: 13px;}
+      section.CC_map .inner ul li h3 img { margin-top: 0;}
+      section.CC_map .inner ul li p { font-size: 10px; padding: 5px}
+      section.CC_map .inner .traffic { margin: 13%;}
+ 
+      /* 섹션 : call */
+      section.call { margin-top: 58%; top: 8%; height: 200px;}
+      section.call .groom { width: 100%;}
+      section.call .phone_gr { margin-top: 38px;}
+      section.call .phone_gr img { width: 40px; left: 26%; top: 5px;}
+      section.call .groom tr,td { padding: 28px 8px; text-align: center; font-size: 15px;}
+      section.call .groom img{ width: 30px; padding: 2px; left: 1px; top: 1px;}
+      section.call .groom img.kakao { width: 60px; float: left; left: 35px;}
+ 
+      section.call .bride { width: 100%;}
+      section.call .phone_br img { width: 40px; right: 26%; top: 5px;}
+      section.call .bride tr,td { padding: 28px 8px; text-align: center; font-size: 15px; top: 1px}
+      section.call .bride img { width: 30px; padding: 2px; left: 1px; top: 1px}
+      section.call .bride img.kakao { width: 60px; float: left; left: 35px;}
+ 
+      section.call input#popup + label { padding: 28px 0; font-size: 14px;}
+      section.call input#popup1 + label  {padding: 28px 0; font-size: 14px;}
+      section.call input#popup + label + div > div { width: 450px; height: 300px;}
+      section.call input#popup1 + label + div > div { width: 450px; height: 300px;}
+ 
+      /* footer */
+      footer { margin-top: 2em; }
+      footer .flower { padding: 2px; font-size: 9px; font-weight: lighter; }
+      footer .parking { padding: 2px; font-size: 9px; font-weight: lighter; }
 }
 
 /* 640~587 */
 @media screen and (max-width:450px){
-    /* .container { min-height: 3200px; } */
+    .container { min-height: 2995px; }
 
      /* top_banner */
      .top_banner { height: 30px; line-height: 30px; font-size: 0.8rem;}
 
      /* 섹션 : visual - slide */
-     section.visual { height: 40vh; overflow: hidden; margin-top: 40px; padding-bottom: 30px;}
+     section.visual { height: 30vh; overflow: hidden; margin-top: 40px; padding-bottom: 30px;}
      section.visual::before { width: 63%; height: 200px; top: 50px; }
      .slick-dots li button {width: 6px; height: 6px; margin-bottom: 16px;}
      section.visual .title h2 {font-size: 18px;}
@@ -271,23 +305,23 @@ br.mo {display: none;}
     section.about .letter p { font-size: 13px; padding: 3px;}
  
      /* 섹션 : gallery */
-     section.gallery { margin: 100px auto; padding: 10px 0; }
+     section.gallery { margin: 73px auto; padding: 10px 0; }
      section.gallery .txtImg { top: 64%;}
      section.gallery .txtImg img { margin-top: 1px; margin-left: 10px; margin-bottom: 15px; width: 40%;}
      section.gallery .title { top: 30px;}
-     section.gallery .title h2 { margin-bottom: 40px;}
+     section.gallery .title h2 { margin-bottom: 40px; font-size: 26px;}
      section.gallery .title p { margin-bottom: 15px;}
      section.gallery .title a { font-size: 14px;}
      section.gallery .title a::before { width: 60px; height: 13px;}
      section.gallery .banner { height: 620px;}
      section.gallery .banner .txt p { font-size: 13px; margin-bottom: 5px; font-weight: bold;}
-     section.gallery .banner li:nth-child(1).motion {left: -20px; width: 52%; top: 53%;}
+     section.gallery .banner li:nth-child(1).motion {left: -20px; width: 52%; top: 50%;}
      section.gallery .banner li:nth-child(2).motion { left: -28px; font-size: 11px; top: 2%; box-shadow: none; width: 55%;}
-     section.gallery .banner li:nth-child(3).motion { left: 52%; font-size: 11px; top: 46%; width: 50%; box-shadow: none;}
+     section.gallery .banner li:nth-child(3).motion { left: 52%; font-size: 11px; top: 43%; width: 50%; box-shadow: none;}
      section.gallery .banner li:nth-child(4).motion {left: 49%; width: 52%; top: -10px;}
  
      /* 섹션 : map */
-     section.map .inner { height: 40em; margin-top: -265px;}
+     section.map .inner { height: 21em; top: 218%; margin-top: -426px;}
      section.map .inner h2 {font-size: 16px;}
      section.map .inner ul li { width: 33%;}
      section.map .inner ul li h3 { font-size: 13px;}
@@ -296,8 +330,8 @@ br.mo {display: none;}
      
      /* 섹션 : 춘천map */
      section.CC_map { top: 200px;}
-     section.CC_map img { margin-top: -25%;}
-     section.CC_map .inner { height: 20em; top: 36%;}
+     section.CC_map img { }
+     section.CC_map .inner { height: 17em; top: 85%; margin-top: 0;}
      section.CC_map .inner h2 {font-size: 16px;}
      section.CC_map .inner ul li { width: 33%;}
      section.CC_map .inner ul li h3 { font-size: 13px;}
@@ -306,9 +340,9 @@ br.mo {display: none;}
      section.CC_map .inner .traffic { margin: 13%;}
 
      /* 섹션 : call */
-     section.call { margin-top: 20px; top: 3%; height: 200px;}
+     section.call { margin-top: 83%; top: 8%; height: 200px;}
      section.call .groom { width: 100%;}
-     section.call .phone_gr { margin-top: 25px;}
+     section.call .phone_gr { margin-top: 38px;}
      section.call .phone_gr img { width: 40px; left: 26%; top: 5px;}
      section.call .groom tr,td { padding: 28px 8px; text-align: center; font-size: 15px;}
      section.call .groom img{ width: 30px; padding: 2px; left: 1px; top: 1px;}
@@ -326,13 +360,14 @@ br.mo {display: none;}
      section.call input#popup1 + label + div > div { width: 350px; height: 300px;}
 
      /* footer */
-     footer { margin-top: 4em; }
-     footer .flower { padding: 3px; font-size: 5px; font-weight: lighter; }
-     footer .parking { padding: 3px; font-size: 5px; font-weight: lighter; }
+     footer { margin-top: 3em; }
+     footer .flower { padding: 2px; font-size: 9px; font-weight: lighter; }
+     footer .parking { padding: 2px; font-size: 9px; font-weight: lighter; }
 }
 
 /* 640~587 */
 @media screen and (max-width:360px){
+    .container { min-height: 2800px;}
     /* top_banner */
     .top_banner { height: 30px; line-height: 30px; font-size: 0.8rem;}
 
@@ -359,13 +394,13 @@ br.mo {display: none;}
     section.gallery .title a::before { width: 50px; height: 8px;}
     section.gallery .banner { height: 570px;}
     section.gallery .banner li:nth-child(1).motion {left: -20px; width: 52%; top: 51%;}
-    section.gallery .banner li:nth-child(2).motion { left: -20px; font-size: 7px; top: 0; box-shadow: none; width: 55%;}
-    section.gallery .banner li:nth-child(3).motion { left: 52%; font-size: 7px; top: 45%; width: 50%; box-shadow: none;}
+    section.gallery .banner li:nth-child(2).motion { left: -25px; font-size: 7px; top: 0; box-shadow: none; width: 55%;}
+    section.gallery .banner li:nth-child(3).motion { left: 52%; font-size: 7px; top: 43%; width: 50%; box-shadow: none;}
     section.gallery .banner li:nth-child(4).motion {left: 49%; width: 52%; top: 0;}
 
     /* 섹션 : map */
-    section.map img { margin-top: 65px;}
-    section.map .inner { height: 280px; top: 200%;}
+    section.map img { margin-top: 63px;}
+    section.map .inner { height: 280px; top: 125%; margin-top: 0;}
     section.map .inner h2 {font-size: 12px;}
     section.map .inner ul { width: 80%;}
     section.map .inner ul li { width: 33.3333%;}
@@ -375,10 +410,9 @@ br.mo {display: none;}
     section.map .inner .traffic { margin: 45px;}
     
     /* 섹션 : 춘천map */
-    section.call { top: 13%; height: 200px;}
-    section.CC_map { top: 100px;}
-    section.CC_map img { margin-top: 30%;}
-    section.CC_map .inner { height: 20em; top: 90%;}
+    section.CC_map { top: 270px;}
+    section.CC_map img { }
+    section.CC_map .inner { height: 16em; top: 75%;}
     section.CC_map .inner ul { width: 80%;}
     section.CC_map .inner ul li { width: 33.3333%;}
     section.CC_map .inner ul li h3 img { width: 1.4em; margin-top: 0;}
@@ -386,9 +420,9 @@ br.mo {display: none;}
     section.CC_map .inner .traffic { margin: 45px;}
 
     /* 섹션 : call */
-    section.call { margin-top: 20px; top: 9%; height: 200px;}
+    section.call { margin-top: 325px; top: 9%; height: 200px;}
     section.call .groom { width: 100%;}
-    section.call .phone_gr { margin-top: 60px;}
+    section.call .phone_gr { margin-top: 45px;}
     section.call .phone_gr img { width: 40px; left: 26%; top: 5px;}
     section.call .groom tr,td { padding: 25px 8px; text-align: center; font-size: 12px;}
     section.call .groom img{ width: 30px; padding: 2px; left: 1px; top: 1px;}
@@ -403,14 +437,14 @@ br.mo {display: none;}
     section.call input#popup1 + label + div > div { width: 300px; height: 260px;}
 
     /* footer */
-    footer { margin-top: 14em;}
+    footer { margin-top: 2em;}
     footer .flower {font-weight: lighter;}
     footer .parking {font-weight: lighter;}
 }
 
 /* 320px 이하  - 280px  체크 - 개발자도구에서 갤럭시 폴드 기종 추가 */ 
 @media screen and (max-width:280px) {
-    .container { min-height: 300px;}
+    .container { min-height: 2300px;}
     /* top_banner */
     .top_banner { height: 30px; line-height: 30px; font-size: 0.8rem;}
 
@@ -426,28 +460,28 @@ br.mo {display: none;}
     .slick-dots { right: 5px; bottom: 2.5em;}
     
     /* 섹션 : about - letter */
-    section.about .letter h2 { padding: 30px; font-size: 18px; margin-bottom: 20px;}
-    section.about .letter p { font-size: 12px;}
+    section.about .letter h2 { padding: 30px; font-size: 18px; margin: 0;}
+    section.about .letter p { font-size: 11px;}
 
     /* 섹션 : gallery */
-    section.gallery { width: 100%; height: 400px; padding: 0; margin: 0;}
+    section.gallery { width: 100%; height: 640px; padding: 0; margin: 0;}
     section.gallery .title { left: 5%; top: 5%;}
     section.gallery .title h2 { font-size: 18px; margin-bottom: 10px;}
     section.gallery .title p { font-size: 9px; margin-bottom: 0;}
     section.gallery .title a { font-size: 9px;}
     section.gallery .title a:before { width: 40px; height: 8px;}
-    section.gallery .txtImg { left: 5px; top: 330px;}
+    section.gallery .txtImg { left: -1px; top: 345px; height: 10%;}
     section.gallery .txtImg img { width: 45%; }
-    section.gallery .banner { position: relative; width: 80%; left: 50%; transform: translateX(-50%); height: 210px;}
-    section.gallery .banner li:nth-child(1).motion {left: -20px; width: 52%; top: 130%;}
-    section.gallery .banner li:nth-child(2).motion { left: -30px; font-size: 5px; top: -15px; box-shadow: none; width: 65%;}
-    section.gallery .banner li:nth-child(3).motion { left: 52%; font-size: 5px; top: 95%; width: 50%; box-shadow: none; width: 60%;}
-    section.gallery .banner li:nth-child(4).motion {left: 55%; width: 52%; top: -5px;}
+    section.gallery .banner { position: relative; width: 80%; left: 50%; transform: translateX(-50%); height: 480px;}
+    section.gallery .banner li:nth-child(1).motion {left: -15px; width: 53%; top: 48%;}
+    section.gallery .banner li:nth-child(2).motion { left: -30px; font-size: 5px; top: -75px; box-shadow: none; width: 65%;}
+    section.gallery .banner li:nth-child(3).motion { left: 52%; font-size: 5px; top: 33%; width: 50%; box-shadow: none; width: 59%;}
+    section.gallery .banner li:nth-child(4).motion {left: 55%; width: 53%; top: -60px;}
 
     /* 섹션 : map */
-    section.map img { width: 100%; margin-top: 155px; }
-    section.map {width: 100%; height: 310px;}
-    section.map .inner {height: 20em; top: 250%;}
+    section.map img { width: 100%; margin-top: 0; }
+    section.map {width: 100%; height: 310px; margin: 0; top: -2px;}
+    section.map .inner {height: 20em; top: 120%;}
     section.map .inner h2 { font-size: 12px;}
     section.map .inner .traffic {width: 70%; margin: 50px auto;}
     section.map .inner ul { width: 100%;}
@@ -456,9 +490,9 @@ br.mo {display: none;}
     section.map .inner ul li p { font-size: 6px; padding: 6px;}
 
     /* 섹션 : 춘천map */
-    section.CC_map {height: 180px;}
-    section.CC_map img { margin-top: 65%;}
-    section.CC_map .inner { height: 20em; top: 410px;}
+    section.CC_map {height: 200px; top: 185px;}
+    section.CC_map img { }
+    section.CC_map .inner { height: 17em; top: 300px;}
     section.CC_map .inner h2 { font-size: 12px;}
     section.CC_map .inner .traffic {width: 70%; margin: 50px auto;}
     section.CC_map .inner ul { width: 100%;}
@@ -468,9 +502,9 @@ br.mo {display: none;}
     section.CC_map .inner ul li p { font-size: 6px; padding: 6px;}
 
     /* 섹션 : call */
-    section.call { margin-top: 90%;}
+    section.call { margin-top: 0; top: 400px;}
     section.call .groom { width: 100%;}
-    section.call .phone_gr { margin-top: 25px;}
+    section.call .phone_gr { margin-top: 50px;}
     section.call .phone_gr img { width: 40px; left: 26%; top: 5px;}
     section.call .groom tr,td { padding: 25px 5px; text-align: center; font-size: 11px;}
     section.call .groom img{ width: 30px; padding: 2px; left: 1px; top: 1px;}
@@ -489,7 +523,7 @@ br.mo {display: none;}
     section.call input#popup1 + label + div > div > label { transform: translate(20%, -20%);}
 
     /* footer */
-    footer { margin-top: 4em;}
+    footer { margin-top: 3em;}
     footer .flower {font-weight: lighter;}
     footer .parking {font-weight: lighter;}
 }
