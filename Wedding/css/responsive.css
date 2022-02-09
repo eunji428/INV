@@ -377,6 +377,7 @@ br.mo {display: none;}
     .slick-dots li button {width: 6px; height: 6px; margin-bottom: 8px;}
     section.visual .title h2 {font-size: 18px;}
     section.visual .title p {font-size: 10px;}
+    section.visual .page img { width: 55%; height: auto;}
     .slick-dots { right: 10px; bottom: 2px;}
 
     /* 섹션 : about - letter */
