@@ -217,6 +217,7 @@ br.mo {display: none;}
     /* 섹션 : visual - slide */
     section.visual { height: 30vh; overflow: hidden;}
     .slick-dots li button {width: 8px; height: 8px;}
+    section.visual .page img {width: 58%; height: auto; margin-left: 12%;}
 
      /* 섹션 : about - letter */
      section.about { margin: 10px auto;}
