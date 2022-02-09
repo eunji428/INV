@@ -293,7 +293,7 @@ br.mo {display: none;}
      /* 섹션 : visual - slide */
      section.visual { height: 30vh; overflow: hidden; margin-top: 40px; padding-bottom: 30px;}
      section.visual::before { width: 63%; height: 200px; top: 50px; }
-     .slick-dots li button {width: 6px; height: 6px; margin-bottom: 16px;}
+     .slick-dots li button {width: 6px; height: 6px; margin-bottom: 21px;}
      section.visual .title h2 {font-size: 18px;}
      section.visual .title p {font-size: 10px;}
      .slick-dots { right: 10px; bottom: 2px;}
