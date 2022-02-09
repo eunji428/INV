@@ -1025,7 +1025,7 @@ section.call input#popup1 + label + div > label {
 
 /* footer */
 footer { margin-top: 40px; background-color: var(--second-color); color: var(--white-color);}
-footer .flower { font-size: 12px; text-align: center; padding: 10px;}
+footer .flower { font-size: 18px; text-align: center; padding: 10px;}
 footer .flower img { width: 12px; }
-footer .parking { font-size: 12px; text-align: center; padding: 10px;}
+footer .parking { font-size: 18px; text-align: center; padding: 10px;}
 footer .parking img { width: 12px; }

@@ -119,8 +119,8 @@ br.mo {display: none;}
     section.call input#popup1 + label + div > div { width: 580px; height: 320px;}
 
     /* footer */
-    footer .flower { font-size: 15px; font-weight: lighter;}
-    footer .parking { font-size: 15px; font-weight: lighter;}
+    footer .flower { font-size: 18px; font-weight: lighter;}
+    footer .parking { font-size: 18px; font-weight: lighter;}
 }
 
 /* 750px 이하 - 모바일 디바이스 체크 */  
@@ -272,15 +272,15 @@ br.mo {display: none;}
       section.call .bride img { width: 30px; padding: 2px; left: 1px; top: 1px}
       section.call .bride img.kakao { width: 60px; float: left; left: 35px;}
  
-      section.call input#popup + label { padding: 28px 0; font-size: 14px;}
-      section.call input#popup1 + label  {padding: 28px 0; font-size: 14px;}
+      section.call input#popup + label { padding: 28px 0; font-size: 12px;}
+      section.call input#popup1 + label  {padding: 28px 0; font-size: 12px;}
       section.call input#popup + label + div > div { width: 450px; height: 300px;}
       section.call input#popup1 + label + div > div { width: 450px; height: 300px;}
  
       /* footer */
       footer { margin-top: 2em; }
-      footer .flower { padding: 2px; font-size: 9px; font-weight: lighter; }
-      footer .parking { padding: 2px; font-size: 9px; font-weight: lighter; }
+      footer .flower { padding: 2px; font-size: 14px;  font-weight: lighter; }
+      footer .parking { padding: 2px; font-size: 14px;  font-weight: lighter; }
 }
 
 /* 640~587 */
@@ -359,8 +359,8 @@ br.mo {display: none;}
 
      /* footer */
      footer { margin-top: 3em; }
-     footer .flower { padding: 2px; font-size: 9px; font-weight: lighter; }
-     footer .parking { padding: 2px; font-size: 9px; font-weight: lighter; }
+     footer .flower { padding: 2px; font-size: 14px; font-weight: lighter; }
+     footer .parking { padding: 2px; font-size: 14px; font-weight: lighter; }
 }
 
 /* 640~587 */
@@ -436,6 +436,14 @@ br.mo {display: none;}
 
     /* footer */
     footer { margin-top: 2em;}
+    footer .flower {font-weight: lighter; font-size: 12px;}
+    footer .parking {font-weight: lighter; font-size: 12px;}
+}
+
+
+@media screen and (max-width:320px) {
+    /* footer */
+    footer { margin-top: 1em;}
     footer .flower {font-weight: lighter;}
     footer .parking {font-weight: lighter;}
 }
@@ -520,7 +528,7 @@ br.mo {display: none;}
     section.call input#popup1 + label + div > div > label { transform: translate(20%, -20%);}
 
     /* footer */
-    footer { margin-top: 3em;}
-    footer .flower {font-weight: lighter;}
-    footer .parking {font-weight: lighter;}
+    footer { margin-top: 2em;}
+    footer .flower {font-weight: lighter; font-size: 11px;}
+    footer .parking {font-weight: lighter; font-size: 11px;}
 }
