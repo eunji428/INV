@@ -453,7 +453,7 @@ br.mo {display: none;}
 @media screen and (max-width:280px) {
     .container { min-height: 2330px;}
     /* top_banner */
-    .top_banner { height: 30px; line-height: 30px; font-size: 0.8rem;}
+    .top_banner { height: 30px; line-height: 30px; font-size: 0.6rem;}
 
     /* 섹션 : visual - slide */
     section.visual { height: 16vh; overflow: hidden; margin-top: 35px;}

@@ -129,7 +129,8 @@ body {
     /* left: 50%; */
     position: fixed;  
     z-index: 200;
-    background-color: rgba(255, 255, 255, 0.16);
+    background-color: rgba(119, 148, 3, 0.078); 
+    color: var(--main-bg-color);
     /* background: url(../img/top_banner.jpg) no-repeat center center; */
 }
 /* 섹션 : 비주얼 - 03/06 */
